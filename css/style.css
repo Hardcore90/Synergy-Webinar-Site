@@ -1,0 +1,488 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.header_inner {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_logo {
+  width: 5%;
+  height: 65%;
+}
+
+.header_logo img {
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  width: 35%;
+  height: 100%;
+  text-transform: uppercase;
+}
+
+.header_nav_menu {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.language {
+  background-image: url(../img/united-kingdom.png);
+  width: 25px;
+  height: 20px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.header_button {
+  width: 15%;
+  height: 65%;
+  background-color: #5b6460;
+  position: relative;
+  right: 2.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_button a {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+
+.intro {
+  width: 100%;
+  height: 85vh;
+  background-image: url(../img/Intro.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.intro_inner {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 100%;
+  height: 100%;
+  align-items: flex-end;
+  position: relative;
+  top: 220px;
+  right: 100px;
+}
+
+.intro_inner_header {
+  font-weight: 300;
+  font-size: 70px;
+  line-height: 72px;
+  margin: 0;
+}
+
+.intro_inner_text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  width: 300px;
+  margin-right: 60px;
+}
+
+.cabins {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 120vh;
+  width: 100%;
+  margin-top: 148px;
+}
+
+.cabins_top {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cabins_top_info {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 200px;
+}
+
+.cabins_top_img {
+  background-image: url(/img/the-bed-features-luxurious-supima-linen-and-woolen-blankets-as-well-as-hand-knit-pillows-from-a-local-artist\ 1.png);
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cabins_top_info div {
+  font-size: 40px;
+  color: #5b6460;
+}
+
+.cabins_top_info p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #000000;
+  width: 50%;
+}
+
+.cabins_top_info a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  color: #5b6460;
+}
+
+.cabins_bottom {
+  width: 95%;
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cabins_bottom img {
+  width: 32%;
+  height: 90%;
+}
+
+.forest {
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  background: #e9ece0;
+  align-items: center;
+}
+
+.forest_left {
+  background-image: url(/img/Screen\ Shot\ 2021-02-26\ at\ 16.18\ 1.png);
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.forest_left_inner {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.forest_left_inner > div {
+  height: 30%;
+  width: 30%;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.forest_left_inner > div > div {
+  height: 70%;
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.forest_left_inner > div > div > div {
+  height: 60%;
+  width: 60%;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.forest_left_inner > div > div > div > div {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  width: 50px;
+}
+
+.forest_right {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.forest_right > div > h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #5b6460;
+}
+
+.forest_right > div > p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #333333;
+  width: 100%;
+}
+
+.forest_right > div > a {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #5b6460;
+}
+
+.forest_right_inner {
+  width: 50%;
+}
+
+.facilities {
+  width: 100%;
+  height: 50vh;
+  background: #5b6460;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.facilities > h2 {
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.facilities_inner > div > p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.facilities_inner {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  align-items: center;
+  height: 40%;
+}
+
+.facilities_inner > div {
+  width: 20%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about {
+  width: 100%;
+  height: 55vh;
+  display: flex;
+  position: relative;
+}
+
+.about_left {
+  background-image: url(/img/2.png);
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  background-size: center;
+  background-repeat: no-repeat;
+}
+
+.about_right {
+  background-image: url(/img/unique-panorama-glass-lodge-iceland8\ 1.png);
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  background-size: center;
+  background-repeat: no-repeat;
+}
+
+.about_center {
+  position: absolute;
+  top: 50%;
+  left: 46.9%;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #333333;
+  background-color: #fff;
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background: #5b6460;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_inner_top {
+  width: 80%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+
+.footer_inner_top p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.footer_inner_top ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+  height: 50%;
+  list-style: none;
+}
+
+.footer_inner_top ul > li > a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+.footer_inner_center {
+  width: 80%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+
+.footer_form {
+  width: 30%;
+  height: 70%;
+}
+
+.footer_form form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #efefef;
+}
+
+.form_input {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.form_button {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.footer_form p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.footer_pay {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  width: 25%;
+  height: 50%;
+  align-self: flex-start;
+}
+
+.footer_inner_bottom {
+  width: 80%;
+  height: 20%;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 30px;
+  color: #efefef;
+  opacity: 0.7;
+}
