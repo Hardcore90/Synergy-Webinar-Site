@@ -147,7 +147,7 @@ nav {
 }
 
 .cabins_top_img {
-  background-image: url(/img/the-bed-features-luxurious-supima-linen-and-woolen-blankets-as-well-as-hand-knit-pillows-from-a-local-artist\ 1.png);
+  background-image: url(../img/the-bed-features-luxurious-supima-linen-and-woolen-blankets-as-well-as-hand-knit-pillows-from-a-local-artist\ 1.png);
   width: 50%;
   height: 100%;
   background-size: cover;
@@ -196,7 +196,7 @@ nav {
 }
 
 .forest_left {
-  background-image: url(/img/Screen\ Shot\ 2021-02-26\ at\ 16.18\ 1.png);
+  background-image: url(../img/Screen\ Shot\ 2021-02-26\ at\ 16.18\ 1.png);
   width: 50%;
   height: 100%;
   background-size: cover;
@@ -338,7 +338,7 @@ nav {
 }
 
 .about_left {
-  background-image: url(/img/2.png);
+  background-image: url(../img/2.png);
   width: 50%;
   height: 100%;
   background-size: cover;
@@ -347,7 +347,7 @@ nav {
 }
 
 .about_right {
-  background-image: url(/img/unique-panorama-glass-lodge-iceland8\ 1.png);
+  background-image: url(../img/unique-panorama-glass-lodge-iceland8\ 1.png);
   width: 50%;
   height: 100%;
   background-size: cover;
@@ -358,7 +358,7 @@ nav {
 .about_center {
   position: absolute;
   top: 50%;
-  left: 46.9%;
+  left: 50%;
   font-weight: 300;
   font-size: 16px;
   line-height: 22px;
